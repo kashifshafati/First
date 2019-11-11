@@ -13,6 +13,17 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 
+
+
+
+
+
+
+
+
+
+
+
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do

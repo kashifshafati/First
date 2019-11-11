@@ -34,9 +34,9 @@ h1, h2, h3 {
   background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /*navbar line*/
-/*.navbar {
+.navbar {
   border: none;
-}*/
+}
 
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
@@ -49,6 +49,17 @@ h1, h2, h3 {
   &:hover {
   	color: white;
   	opacity: 0.75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
   }
 }
 
