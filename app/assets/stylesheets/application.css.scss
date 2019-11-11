@@ -12,10 +12,16 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
+
  */
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ @import "font-awesome";
+
+
+
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
@@ -27,6 +33,7 @@ h1, h2, h3 {
   background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/*navbar line*/
 /*.navbar {
   border: none;
 }*/
@@ -39,10 +46,8 @@ h1, h2, h3 {
   }
 }
 
-
-
-
-.home-callout {
+/*home page styling
+*/.home-callout {
   color: white;
   margin-top: -20px;
   padding-top: 50px;
