@@ -12,6 +12,8 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
+gem 'hirb', '0.7.3'
+
 
 
 
