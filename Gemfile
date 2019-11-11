@@ -19,13 +19,6 @@ gem 'hirb', '0.7.3'
 
 
 
-
-
-
-
-
-
-
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
