@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.5'
 
 gem 'rails', '~> 6.0.1'
-# gem 'sqlite3', '~> 1.4'
+ gem 'sqlite3', '~> 1.4'
 gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
@@ -13,13 +13,13 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 gem 'hirb', '0.7.3'
+gem 'devise', '~> 4.7', '>= 4.7.1'
 
 
 
-
- group :production do
-  gem 'pg'
-end
+#  group :production do
+#   gem 'pg'
+# end
 
 gem 'bootsnap', '>= 1.4.2', require: false
 
