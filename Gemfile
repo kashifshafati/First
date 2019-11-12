@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 gem 'hirb', '0.7.3'
 gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'stripe', '~> 1.48.0'
 
 
 
